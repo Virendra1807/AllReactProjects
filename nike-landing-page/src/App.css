@@ -1,0 +1,48 @@
+
+:root{
+  --red: #d01c28;
+  --grey: #2e2e2e;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+.logo img{
+  width: 100px;
+}
+
+.navigation{
+  width: 400px;
+  /* background-color: aqua; */
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation li:hover{
+  color: var(--red);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.login-button{
+  width: 70px;
+  height: 25px;
+  border: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: var(--red);
+  color: white;
+  cursor: pointer;
+}
