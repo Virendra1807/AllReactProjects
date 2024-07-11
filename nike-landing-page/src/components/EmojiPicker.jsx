@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-function EmojiPicker({arr}) {
+function EmojiPicker(props) {
 
-    const list = arr
+    const list = props.arr
     const [selectedEmoji, setSelectedEmoji] = useState('');
     // const [arr, setArr] = useState('');
 
