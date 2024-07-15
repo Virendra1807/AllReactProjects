@@ -4,14 +4,14 @@ function Footer() {
 
   useEffect(()=>{
     let randColor = "#";
-    let str = "abcdefgth0123456789"
+    let str = "abcdef0123456789"
   
     for(let i=1; i<=6; i++){
-      randColor += str[Math.floor(Math.random()*10)]
+      randColor += str[Math.floor(Math.random()*15)]
     }
     document.body.style.backgroundColor = randColor;
     console.log(randColor)
-  }, [])
+  })
   
 
   return (
