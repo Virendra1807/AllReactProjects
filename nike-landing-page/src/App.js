@@ -15,12 +15,14 @@ function App() {
   return (
     // <countContext.Provider value = {user}>
     <div className="App">
+    <div className="header">
       {/* <Header />
         <EmojiPicker arr={list} />
         <Footer/> */}
         {/* {user} */}
 
         <TimeCountdown/>
+        </div>
     </div>
     // </countContext.Provider>
   );
