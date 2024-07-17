@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import countContext from './components/ContextHook';
 import { useContext } from 'react';
 import TimeCountdown from './components/TimeCountdown';
+import AutoBgColorChanger from './components/AutoBgColorChanger';
 
 function App() {
   // const list = ["😊", "🐶", "🎉", "🍕", "🚀", "🤖", "🎊", "👻", "💃", "🔥"];
@@ -22,6 +23,9 @@ function App() {
         {/* {user} */}
 
         <TimeCountdown/>
+
+        <AutoBgColorChanger/>
+        
         </div>
     </div>
     // </countContext.Provider>
