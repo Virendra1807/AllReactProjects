@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import AutoBgColorChanger from './AutoBgColorChanger';
 
 function TimeCountdown() {
 
@@ -11,6 +12,7 @@ function TimeCountdown() {
             setTimeout(() => {
                 setCount(count - 1)
             }, 1000)
+            document.getElementById('inputSec').value = "";
         }
 
     }, [count])
@@ -18,9 +20,10 @@ function TimeCountdown() {
     return (
         <div>
             <h1>Time CountDown</h1>
-            <input type="text" onChange={(e)=> setSeconds(e.target.value)}  />
+            <input id='inputSec' type="text" onChange={(e)=> setSeconds(e.target.value)} placeholder='Enter Seconds to Start'  />
             <button onClick={()=>setCount(seconds)}>Start</button>
             <h3>{count}</h3>
+            <AutoBgColorChanger count = {count}/>
         </div>
     )
 }

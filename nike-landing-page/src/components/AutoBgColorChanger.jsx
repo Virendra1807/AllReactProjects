@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 
-function AutoBgColorChanger() {
+function AutoBgColorChanger(props) {
 
     useEffect(()=>{
         let randColor = "#";
@@ -11,12 +11,13 @@ function AutoBgColorChanger() {
           randColor += str[Math.floor(Math.random()*15)]
         }
         document.body.style.backgroundColor = randColor;
-      }, [] )
-      //No dependency 
+
+      }, [props.count] )
+      //Count down dependency 
 
   return (
     <div>
-        <h1>Auto Backgroud Changer when we refresh it</h1>
+        <h1>Auto Backgroud Changer when we start the countdown</h1>
     </div>
   )
 }
