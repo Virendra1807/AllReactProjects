@@ -5,6 +5,7 @@ function AutoBgColorChanger(props) {
 
     useEffect(()=>{
         let randColor = "#";
+        
         let str = "abcdef0123456789"
       
         for(let i=1; i<=6; i++){
