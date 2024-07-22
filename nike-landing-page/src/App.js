@@ -7,6 +7,7 @@ import countContext from './components/ContextHook';
 // import { useContext } from 'react';
 import TimeCountdown from './components/TimeCountdown';
 import AutoBgColorChanger from './components/AutoBgColorChanger';
+import CatFacts from './components/CatFacts';
 
 function App() {
   // const list = ["😊", "🐶", "🎉", "🍕", "🚀", "🤖", "🎊", "👻", "💃", "🔥"];
@@ -22,7 +23,9 @@ function App() {
         <Footer/> */}
           {/* {user} */}
 
-          <TimeCountdown />
+          {/* <TimeCountdown /> */}
+
+          <CatFacts />
 
           {/* <AutoBgColorChanger  /> */}
 
