@@ -2,7 +2,9 @@ import React from 'react'
 
 function FormsWithRegex() {
   return (
-    <div>FormsWithRegex</div>
+    <div>
+      <h1>FormsWithRegex</h1>
+    </div>
   )
 }
 
