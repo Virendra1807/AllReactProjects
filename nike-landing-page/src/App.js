@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <div className="header">
           {/* <Header /> */}
-          <Props name="Viren" title="React js Tutorial" />
+          <Props title="React js Tutorial" />
         {/* <EmojiPicker arr={list} /> */}
         {/* <Footer/> */}
           {/* {user} */}

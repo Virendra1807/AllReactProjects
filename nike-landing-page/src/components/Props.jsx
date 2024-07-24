@@ -11,7 +11,7 @@ const Props = (props) => {
 
 Props.defaultProps={
     title:"Hello",
-    name : "Kiran"
+    name : "Jay"
 }
 
 export default Props
