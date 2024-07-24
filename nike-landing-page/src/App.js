@@ -8,6 +8,7 @@ import countContext from './components/ContextHook';
 import TimeCountdown from './components/TimeCountdown';
 import AutoBgColorChanger from './components/AutoBgColorChanger';
 import CatFacts from './components/CatFacts';
+import Props from './components/Props';
 
 function App() {
   // const list = ["😊", "🐶", "🎉", "🍕", "🚀", "🤖", "🎊", "👻", "💃", "🔥"];
@@ -18,14 +19,15 @@ function App() {
     // <countContext.Provider value={user}>
       <div className="App">
         <div className="header">
-          {/* <Header />
-        <EmojiPicker arr={list} />
-        <Footer/> */}
+          {/* <Header /> */}
+          <Props name="Viren" title="React js Tutorial" />
+        {/* <EmojiPicker arr={list} /> */}
+        {/* <Footer/> */}
           {/* {user} */}
 
           {/* <TimeCountdown /> */}
 
-          <CatFacts />
+          {/* <CatFacts /> */}
 
           {/* <AutoBgColorChanger  /> */}
 
