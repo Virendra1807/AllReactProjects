@@ -10,9 +10,17 @@ export default class ClassState extends Component{
     }
 
     update(){
-        this.setState({
-            count : this.state.count + 1
-        })
+        this.setState((prevState)=>(console.log(prevState),{
+            count : prevState.count + 1
+        }))
+
+        this.setState((prevState)=>(console.log(prevState),{
+            count : prevState.count + 1
+        }))
+
+        this.setState((prevState)=>(console.log(prevState),{
+            count : prevState.count + 1
+        }))
     }
 
     delete(){
