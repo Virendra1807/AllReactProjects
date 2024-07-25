@@ -1,5 +1,5 @@
 import React from 'react'
-
+import propTypes from "prop-types"
 const Props = (props) => {
   return (
     <div>
@@ -12,6 +12,11 @@ const Props = (props) => {
 Props.defaultProps={
     title:"Hello",
     name : "Jay"
+}
+
+Props.propTypes = {
+  title: propTypes.string,
+  name : propTypes.string
 }
 
 export default Props
