@@ -1,5 +1,5 @@
 import './App.css';
-// import PropsUse from './Components/PropsUse';
+// import PropsUse from './Components/01PropsUse';
 
 function App() {
   return (
