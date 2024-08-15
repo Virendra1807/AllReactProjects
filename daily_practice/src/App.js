@@ -1,7 +1,8 @@
 import './App.css';
 // import ClassState from './Components/02ClassState';
 // import PropsUse from './Components/01PropsUse';
-import Arrays from './Components/03Arrays';
+// import Arrays from './Components/03Arrays';
+import DiffBetnForEachAndMap from './Components/04DiffBetnForEachAndMap';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <header className="App-header">
         {/* <PropsUse heading="Props in React"  age={23}/> */}
         {/* <ClassState /> */}
-    	  <Arrays />
+    	  {/* <Arrays /> */}
+        <DiffBetnForEachAndMap />
+
       </header>
     </div>
   );
